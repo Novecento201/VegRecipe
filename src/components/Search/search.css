@@ -1,0 +1,28 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-icon {
+  font-size: 1.3rem;
+  color: var(--color-primary);
+}
+
+.form-icon:hover {
+  color: var(--color-secondary);
+}
+
+.form-input {
+  width: 280px;
+  font-size: 1.2rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+}
+
+@media screen and (max-width: 800px) {
+  .form-input {
+    width: 230px;
+  }
+}

@@ -1,0 +1,37 @@
+.container-card {
+  position: relative;
+  width: 260px;
+  height: 350px;
+}
+
+.image-card {
+  width: 260px;
+  height: 350px;
+  border-radius: 2rem;
+}
+
+.content-card {
+  position: absolute;
+  z-index: 5;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  border-radius: 0 0 2rem 2rem;
+  padding: 20px 15px;
+  transition: 400ms ease;
+}
+
+.content-card h4 {
+  font-size: 1.4rem;
+}
+
+.minor-info-card {
+  color: var(--color-gray);
+}
+
+.container-card:hover .content-card {
+  background-color: var(--color-bg-variant);
+  color: var(--color-primary);
+}

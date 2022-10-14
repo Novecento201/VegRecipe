@@ -1,4 +1,4 @@
-![Alt Text](src/img/photo.png)
+![Alt Text](src/img/README.gif)
 
 # Vegetarian website made with React.js
 
